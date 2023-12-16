@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import ProjSolo from './components/projSolo'
+import ProjSolo from './components/ProjSolo'
 import { projectList } from './data/projectList'
+import Heading from './components/Heading'
+import ContactLink from './components/ContactLink'
 
 
 export default function Home() {
@@ -24,11 +26,13 @@ export default function Home() {
 
   return (
     <>
-      <Link href="/projects">Projects</Link>
-        <ProjSolo key={projArray[0].id} title={projectList[projArray[0]].title} himg={projectList[projArray[0]].img[0]}/>
-        <ProjSolo key={projArray[1].id} title={projectList[projArray[1]].title} himg={projectList[projArray[1]].img[0]}/>
-        <ProjSolo key={projArray[2].id} title={projectList[projArray[2]].title} himg={projectList[projArray[2]].img[0]}/>
+      <Heading h1={'Kimbo McC'} h2={'Graphic/digital design & Web-development specialist'}/>
+      <ProjSolo key={projArray[0].id} title={projectList[projArray[0]].title} slug={projectList[projArray[0]].slug} himg={projectList[projArray[0]].img[0]}/>
+      <ProjSolo key={projArray[1].id} title={projectList[projArray[1]].title} slug={projectList[projArray[1]].slug} himg={projectList[projArray[1]].img[0]}/>
+      <ProjSolo key={projArray[2].id} title={projectList[projArray[2]].title} slug={projectList[projArray[2]].slug} himg={projectList[projArray[2]].img[0]}/>
+      <ProjSolo key={12} title="View all projects" slug='projects' himg={projectList[projArray[2]].img[0]}/>
+      <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
+
     </>
   );
-
 }
