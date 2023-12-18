@@ -10,11 +10,14 @@ export default function Project( props ) {
 
     return(
         <div>
-            <div>
-                <Heading h1={title} h2={h2}/>
-                <Image src={test} alt="project heading"/>
+            <div className="bg-[url('./05.jpg')] pt-40 pb-24 pr-5">
+                <div className="bg-white py-8 pl-5">
+                    <h1 className="pb-6">{title}</h1>
+                    <h2>{h2}</h2>
+                </div>
             </div>
-            <div className="py-24 px-5">
+            
+            <div className="py-16 px-5">
                 <div>
                     <h3 className="pb-8">The aim</h3>
                     <p>{aim}</p>
@@ -34,3 +37,6 @@ export default function Project( props ) {
         </div>
     )
 }
+/*
+<Image className="relative top-0" src={test} alt='' />
+*/
