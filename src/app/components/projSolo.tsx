@@ -3,7 +3,12 @@ import test from './05.jpg'
 import Button from "./Button"
 
 export default function ProjSolo( props ) {
-    const { title, h2, aim, outcome, himg, slug } = props
+    const { title, h2, aim, outcome, himg, slug, gallery } = props
+
+    const visibleBut = 'block'
+    if (gallery === true) {
+        const visibleBut = 'hidden'
+    }
 
     return(
         <div className="relative h-64">
@@ -12,7 +17,7 @@ export default function ProjSolo( props ) {
                 src={test}
                 alt="Picture of work"
             />
-            <Button title={title} slug={slug}/>
+            <Button gallery={gallery} title={title} slug={slug}/>
         </div>
        
     )

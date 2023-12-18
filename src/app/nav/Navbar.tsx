@@ -13,25 +13,25 @@ export default function Navbar() {
         setOpen(!open)
     }
 
-    let visible = 'invisible'
+    let visible = 'hidden'
     if (open) {
-        visible = 'invisible'
+        visible = 'hidden'
     } else {
-        visible = 'visible'
+        visible = 'block'
     }
     
     return(
-        <div className="w-full items-center fixed z-20">
+        <div className="items-center fixed z-20 w-full">
             <div className="flex py-5 px-5 justify-between bg-white">
                 <p className="font-bold text-5xl"><Link href={'/'}>KIMBO</Link></p>
                 <FontAwesomeIcon className="h-10 cursor-pointer" onClick={toggleOpen} icon={faBars}/>
             </div>
-                <ul className={"py-24 px-5 bg-gray-100 w-full h-screen overflow-hidden " + visible }>
-                    <li><Link href='/'>Home</Link></li>
-                    <li><Link href='/projects'>Projects</Link></li>
-                    <li><Link href='/contact'>Contact</Link></li>
-                    <li><Link href='/cv'>CV</Link></li>
-                </ul>
+            <ul className={"py-24 px-5 bg-gray-100 w-full " + visible }>
+                    <li onClick={toggleOpen}><Link href='/Projects'>Projects</Link></li>
+                    <li onClick={toggleOpen}><Link href='/Contact'>Contact</Link></li>
+                    <li onClick={toggleOpen}><Link href='/CV'>CV</Link></li>
+                    <li onClick={toggleOpen}><Link href='/'>Home</Link></li>
+            </ul>
         </div>
     )
 }   

@@ -1,5 +1,5 @@
 
-export default function Heading(props) {
+export default function Heading( props ) {
     const { h1, h2, aim, outcome } = props
 
     return(
