@@ -5,7 +5,6 @@ import { projectList } from './data/projectList'
 import Heading from './components/Heading'
 import ContactLink from './components/ContactLink'
 
-
 export default function Home() {
   const projArray = []
   

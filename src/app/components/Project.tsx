@@ -6,17 +6,11 @@ import ContactLink from "./ContactLink";
 
 
 export default function Project( props ) {
-    const { title, h2, aim, outcome, imgs, test, slug, gallery, num } = props
+    const { title, h2, aim, outcome, imgs, test, slug, gallery, num, imgString } = props
 
+    
     return(
         <div>
-            <div className="bg-[url('./05.jpg')] pt-40 pb-24 pr-5">
-                <div className="bg-white py-8 pl-5">
-                    <h1 className="pb-6">{title}</h1>
-                    <h2>{h2}</h2>
-                </div>
-            </div>
-            
             <div className="py-16 px-5">
                 <div>
                     <h3 className="pb-8">The aim</h3>

@@ -1,8 +1,8 @@
-import Heading from "../components/Heading";
-import Project from "../components/Project";
-import { projectList } from "../data/projectList"; 
+import Heading from "../../components/Heading";
+import Project from "../../components/Project";
+import { projectList } from "../../data/projectList"; 
 import test from "../components/05.jpg"
-import ProjSolo from "../components/ProjSolo"
+import ProjSolo from "../../components/ProjSolo"
 
 export default function Health() {
     const num = 4

@@ -19,7 +19,8 @@ export const projectList = {
     id: '1',
     title: 'Temple Martial Arts',
     slug: 'TMA',
-    h2: 'UI/UX Design, Front-End Development',aim: 'This client wanted their existing digital footprint refreshed and updated to further establish their brand and connect with new audiences.',
+    h2: 'UI/UX Design, Front-End Development',
+    aim: 'This client wanted their existing digital footprint refreshed and updated to further establish their brand and connect with new audiences.',
     outcome: 'A modern responsive website designed to pre-established brand guidelines, enhanced SEO to reach a wider audience, hosting services and a ‘club-finder’ feature directing new customers to their local point of contact.',
     img: [ img02]
   },
