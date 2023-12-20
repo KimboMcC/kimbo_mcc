@@ -12,10 +12,14 @@ export const metadata: Metadata = {
   description: '...', ///what write here? add Metadata to all PAGES! Why work on page.tsx but not layout.tsx? 
 }
     
+// HOVER STATE FOR GALLERY IMAGES. MAKE IT POP UP TO THE RIGHT N LEAVE A BLACK CLONE IN ITS PLACE. UNO WHAT I MEAN ;)
+
+
+////GET IMAGES WORKING NEXT, GOT LOADS OF STUFF ON HDD @HOME SO SIFT THRU AND SEE WHAT YOU CAN MAKE. REMEMBER NOT TO GET LOST IN ABSOLUTE
+////PERFECTION. I WANT IT TO BE NICE BUT IMPORTANTLY IT NEEDS TO WORK. THE QUICKER I HAVE IT WORKING THE QUICKER I CAN USE IT,
+////I CAN ALWAYS MAKE ADJUSTMENTS LATER IF WANTED. PRIORITY IS GETTING IT OOT.
 
 export default function Projects() {
-    // Assuming projectList is an array of objects containing project information
-
 
     return (
         <div>
