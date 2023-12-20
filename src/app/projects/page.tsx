@@ -3,8 +3,15 @@ import ProjSolo from "../components/ProjSolo"
 import {projectList} from "@/app/data/projectList";
 import Heading from "../components/Heading";
 import ContactLink from "../components/ContactLink";
+import Footer from "../components/Footer";
 
-
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Projects',
+  description: '...', ///what write here? add Metadata to all PAGES! Why work on page.tsx but not layout.tsx? 
+}
+    
 
 export default function Projects() {
     // Assuming projectList is an array of objects containing project information
@@ -22,8 +29,9 @@ export default function Projects() {
                     himg={projectList[key].img[0]}
                 />
             ))}
-            <ContactLink h3="Like what you see?" p="Let me help realise your business dreams"/>
-        </div>
+            <div className=""><ContactLink h3="Like what you see?" p="Let me help realise your business dreams"/></div>
+            <Footer />
+            </div>
     );
 }
 

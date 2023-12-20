@@ -2,6 +2,6 @@ import Link from "next/link";
 
 export default function ContactButton() {
     return(
-        <p><Link href="/contact" className=" underline">Contact me</Link></p>
+        <p className="font-semibold"><Link href="/contact" className="hover:underline">Contact me</Link></p>
     )
 }

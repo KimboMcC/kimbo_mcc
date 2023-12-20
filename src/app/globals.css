@@ -64,6 +64,7 @@ p {
   color: #333;
 }
 
+
 li {
   font-size: 2rem;
   font-style: normal;
@@ -72,6 +73,19 @@ li {
   letter-spacing: 0.08rem;
   color: #4f4f4f;
   margin-bottom: 3rem;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.foot li {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: 0.045rem;
+  color: #333;
 }
 
 .fa-bars {

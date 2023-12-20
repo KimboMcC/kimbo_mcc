@@ -3,16 +3,20 @@ import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
 import test from "../../05.jpg"
 import ProjSolo from "../../components/ProjSolo";
+import Footer from "@/app/components/Footer";
 
 export default function K9() {
     const num = 2
     let rNum = 2
-    
+    const gNum = '0' /////////// BRUH__ WHEN ITS A CONST ITS FUNE BUT ASSOON AS ITS LET IT WONT ACCEPT IT AS A PARAMETER OF PROJLIST? 
+
     function random() {
         rNum = Math.floor(Math.random() * Object.keys(projectList).length)
         while(num ===rNum){
             rNum = Math.floor(Math.random() * Object.keys(projectList).length)
         }
+        gNum = rNum.toString
+        console.log(gNum)
     }
     random()
     
@@ -35,9 +39,10 @@ export default function K9() {
                 imgString='../components/05.jpg'
             />
             <div>
-                <ProjSolo key={projectList[rNum].id} title={projectList[rNum].title} slug={projectList[rNum].slug} himg={projectList[rNum].img[0]}/>
+                <ProjSolo key={projectList[gNum].id} title={projectList[gNum].title} slug={projectList[gNum].slug} himg={projectList[gNum].img[0]}/>
                 <ProjSolo key={12} title="View all projects" slug='' himg={projectList[2].img[0]}/>
             </div>
+            <Footer/>
         </div>
     )
 }

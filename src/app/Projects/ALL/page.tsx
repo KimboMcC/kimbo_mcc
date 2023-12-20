@@ -3,16 +3,19 @@ import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
 import test from "../../05.jpg"
 import ProjSolo from "../../components/ProjSolo";
+import Footer from "@/app/components/Footer";
 
 export default function ALL() {
     const num = 0
     let rNum = 0
-    
+    let gNum = '0'
+
     function random() {
         rNum = Math.floor(Math.random() * Object.keys(projectList).length)
         while(num === rNum){
             rNum = Math.floor(Math.random() * Object.keys(projectList).length)
         }
+        gNum = rNum.toString()
     }
     random()
     
@@ -34,10 +37,11 @@ export default function ALL() {
                 imgs={projectList[num].img}
                 imgString='../components/05.jpg'
             />
-            <div>
+            <div className="mb-24">
                 <ProjSolo key={projectList[rNum].id} title={projectList[rNum].title} slug={projectList[rNum].slug} himg={projectList[rNum].img[0]}/>
                 <ProjSolo key={12} title="View all projects" slug='' himg={projectList[2].img[0]}/>
             </div>
+            <Footer/>
         </div>
     )
 }

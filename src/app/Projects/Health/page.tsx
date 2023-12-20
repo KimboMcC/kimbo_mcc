@@ -1,8 +1,9 @@
 import Heading from "../../components/Heading";
 import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
-import test from "../components/05.jpg"
+import test from "../../05.jpg"
 import ProjSolo from "../../components/ProjSolo"
+import Footer from "@/app/components/Footer";
 
 export default function Health() {
     const num = 4
@@ -31,6 +32,7 @@ export default function Health() {
                 <ProjSolo key={projectList[rNum].id} title={projectList[rNum].title} slug={projectList[rNum].slug} himg={projectList[rNum].img[0]}/>
                 <ProjSolo key={12} title="View all projects" slug='' himg={projectList[2].img[0]}/>
             </div>
+            <Footer/>
         </div>
     )
 }

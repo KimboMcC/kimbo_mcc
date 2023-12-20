@@ -4,6 +4,7 @@ import ProjSolo from './components/ProjSolo'
 import { projectList } from './data/projectList'
 import Heading from './components/Heading'
 import ContactLink from './components/ContactLink'
+import Footer from './components/Footer'
 
 export default function Home() {
   const projArray = []
@@ -31,7 +32,7 @@ export default function Home() {
       <ProjSolo key={projArray[2].id} title={projectList[projArray[2]].title} slug={projectList[projArray[2]].slug} himg={projectList[projArray[2]].img[0]}/>
       <ProjSolo key={12} title="View all projects" slug='' himg={projectList[projArray[2]].img[0]}/>
       <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
-
+      <Footer />
     </>
   );
 }
