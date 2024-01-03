@@ -21,7 +21,7 @@ export default function ALL() {
     
     return(
         <div className="">
-            <div className={"bg-[url('./05.jpg')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
+            <div className={"bg-[url('./data/ALL/01.png')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
                 <div className="bg-white py-8 pl-5">
                     <h1 className="pb-6">{projectList[num].title}</h1>
                     <h2>{projectList[num].h2}</h2>
