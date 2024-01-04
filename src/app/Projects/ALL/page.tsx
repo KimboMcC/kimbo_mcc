@@ -4,7 +4,7 @@ import Heading from "../../components/Heading";
 import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
 import test from "../../05.jpg"
-import ProjSolo from "@/app/components/ProjSolo";
+import ProjSolo from "../../components/ProjSolo";
 import Footer from "@/app/components/Footer";
 
 
