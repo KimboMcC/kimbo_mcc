@@ -1,9 +1,12 @@
+// @ts-nocheck
+
 import Heading from "../../components/Heading";
 import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
 import test from "../../05.jpg"
 import ProjSolo from "../../components/ProjSolo";
 import Footer from "@/app/components/Footer";
+
 
 export default function ALL() {
     const num = 0
@@ -16,6 +19,7 @@ export default function ALL() {
             rNum = Math.floor(Math.random() * Object.keys(projectList).length)
         }
         gNum = rNum.toString()
+        const yNum = rNum
     }
     random()
     
