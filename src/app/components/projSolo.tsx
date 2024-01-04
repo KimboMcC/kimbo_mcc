@@ -3,7 +3,7 @@ import test from './05.jpg'
 import Button from "./Button"
 
 
-export default function ProjSolo( props ) {
+export default function ProjSolo( props: any ) {
     const { title, h2, aim, outcome, src, slug, gallery } = props
 
     const visibleBut = 'block'
