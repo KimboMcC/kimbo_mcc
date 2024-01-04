@@ -27,9 +27,9 @@ export default function Home() {
   return (
     <>
       <Heading h1={'Kimbo McC'} h2={'Graphic/digital design & Web-development specialist'}/>
-      <ProjSolo key={projArray[0].id} title={projectList[projArray[0]].title} slug={projectList[projArray[0]].slug} himg={projectList[projArray[0]].img[0]}/>
-      <ProjSolo key={projArray[1].id} title={projectList[projArray[1]].title} slug={projectList[projArray[1]].slug} himg={projectList[projArray[1]].img[0]}/>
-      <ProjSolo key={projArray[2].id} title={projectList[projArray[2]].title} slug={projectList[projArray[2]].slug} himg={projectList[projArray[2]].img[0]}/>
+      <ProjSolo key={projArray[0].id} title={projectList[projArray[0]].title} slug={projectList[projArray[0]].slug} src={projectList[projArray[0]].img[0]}/>
+      <ProjSolo key={projArray[1].id} title={projectList[projArray[1]].title} slug={projectList[projArray[1]].slug} src={projectList[projArray[1]].img[0]}/>
+      <ProjSolo key={projArray[2].id} title={projectList[projArray[2]].title} slug={projectList[projArray[2]].slug} src={projectList[projArray[2]].img[0]}/>
       <ProjSolo key={12} title="View all projects" slug='' himg={projectList[projArray[2]].img[0]}/>
       <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
       <Footer />

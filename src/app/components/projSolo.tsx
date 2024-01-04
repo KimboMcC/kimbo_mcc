@@ -28,6 +28,4 @@ export default function ProjSolo( props ) {
 <div class="relative overflow-hidden">
   <div class="absolute inset-0 bg-blue-500 transform -rotate-45 origin-left"></div>
 </div>
-
-
 */
