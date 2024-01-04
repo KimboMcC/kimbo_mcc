@@ -1,9 +1,11 @@
+// @ts-nocheck
+
 import Image from "next/image"
 import test from './05.jpg'
 import Button from "./Button"
 
 
-export default function ProjSolo( props: any ) {
+export default function ProjSolo( props ) {
     const { title, h2, aim, outcome, src, slug, gallery } = props
 
     const visibleBut = 'block'
