@@ -23,7 +23,7 @@ export default function Project( props ) {
             </div>
             <div>
                 {imgs.map((img) => (
-                    <ProjSolo gallery={'hidden'} src={img}/>
+                    <ProjSolo gallery={'hidden'} src={img} key='1'/>
                 ))}
             </div>
             <ContactLink h3='Let&apos;s talk!' p="Got an idea but no clue how to turn it into a reality?"/>

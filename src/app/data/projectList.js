@@ -1,5 +1,13 @@
 import tma01 from './TMA/01.jpg'
 import all01 from './ALL/01.png'
+import all02 from './ALL/02.png'
+import all03 from './ALL/03.png'
+import all04 from './ALL/04.png'
+import all05 from './ALL/05.png'
+import all06 from './ALL/06.png'
+
+
+
 
 export const projectList = {
   '0': {
@@ -9,7 +17,7 @@ export const projectList = {
     h2: 'UI/UX Design, Front-End Development',
     aim: 'This client wanted their existing digital footprint refreshed and updated to further establish their brand and connect with new audiences.',
     outcome: 'A modern responsive website designed to pre-established brand guidelines, enhanced SEO to reach a wider audience, hosting services and a ‘club-finder’ feature directing new customers to their local point of contact.',
-    img: [ all01, ]
+    img: [ all01, all02, all03, all04, all05, all06 ]
   },
 
   '1': {

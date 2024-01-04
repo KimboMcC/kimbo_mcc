@@ -4,7 +4,7 @@ import Button from "./Button"
 
 
 export default function ProjSolo( props ) {
-    const { title, h2, aim, outcome, himg, slug, gallery } = props
+    const { title, h2, aim, outcome, src, slug, gallery } = props
 
     const visibleBut = 'block'
     if (gallery === true) {
@@ -15,7 +15,7 @@ export default function ProjSolo( props ) {
         <div className="relative h-64 -mt-4">
             <Image
                 className=" z-10"
-                src={himg}
+                src={src}
                 alt="Picture of work"
             />
             <Button gallery={gallery} title={title} slug={slug}/>
