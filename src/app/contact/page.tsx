@@ -2,7 +2,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Heading from "../components/Heading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ProjSolo from "../components/ProjSolo";
+import ProjSolo from "../components/Projsolo";
 import { projectList } from "../data/projectList";
 import Footer from "../components/Footer";
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Heading from "./Heading";
 import { projectList } from "../data/projectList";
-import ProjSolo from "./ProjSolo";
+import ProjSolo from "./Projsolo";
 import ContactLink from "./ContactLink";
 
 
