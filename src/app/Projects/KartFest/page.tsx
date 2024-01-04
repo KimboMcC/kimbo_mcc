@@ -2,7 +2,7 @@ import Heading from "../../components/Heading";
 import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
 import test from "../../05.jpg"
-import ProjSolo from "../../components/Projsolo";
+import ProjSolo from "../../components/ProjSolo";
 
 export default function KartFest() {
     const num = 3

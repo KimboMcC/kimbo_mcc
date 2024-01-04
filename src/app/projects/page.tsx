@@ -1,5 +1,5 @@
 import Link from "next/link"
-import ProjSolo from "../components/Projsolo"
+import ProjSolo from "../components/ProjSolo"
 import {projectList} from "@/app/data/projectList";
 import Heading from "../components/Heading";
 import ContactLink from "../components/ContactLink";
