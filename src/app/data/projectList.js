@@ -8,10 +8,10 @@ import all06 from './ALL/06.png'
 import tma01 from './TMA/01.jpg'
 import tma02 from './TMA/02.png'
 import tma03 from './TMA/03.png'
-import tma04 from './TMA/04.png'
+import tma04 from './TMA/06.png'
 import tma05 from './TMA/05.png'
-import tma06 from './TMA/06.png'
-import tma07 from './TMA/07.png'
+import tma06 from './TMA/07.png'
+import tma07 from './TMA/04.png'
 import tma08 from './TMA/08.png'
 
 import kf01 from './KF/01.png'
@@ -28,6 +28,8 @@ import pb02 from './petbook/02.png'
 
 import peri01 from './peri/01.png'
 import peri02 from './peri/02.png'
+
+import proj01 from './01.png'
 
 export const projectList = {
   '0': {
@@ -94,6 +96,6 @@ export const projectList = {
 
 export const allProj = {
   '2': {
-    img: []
+    img: [ proj01 ]
   }
 }

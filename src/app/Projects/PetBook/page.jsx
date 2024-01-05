@@ -4,6 +4,7 @@ import { projectList } from "../../data/projectList";
 import test from "../../05.jpg"
 import ProjSolo from "../../components/ProjSolo";
 import Footer from "@/app/components/Footer";
+import { allProj } from "../../data/projectList";
 
 export default function KartFest() {
     const num = 4
@@ -36,8 +37,8 @@ export default function KartFest() {
                 imgString='../components/05.jpg'
             />
             <div>
-                <ProjSolo key={projectList[rNum].id} title={projectList[rNum].title} slug={projectList[rNum].slug} src={projectList[rNum].img[0]}/>
-                <ProjSolo key={12} title="View all projects" slug='' src={projectList[2].img[0]}/>
+ 
+                <ProjSolo key={12} title="View more projects" slug='' src={allProj[2].img[0]}/>
             </div>
             <Footer/>
         </div>

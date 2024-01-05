@@ -12,7 +12,7 @@ export default function Button( props: any ) {
 
     return (
         <>
-            <p><Link className={"bg-white absolute bottom-12 left-5 px-6 py-2 z-10 " + gallery} href={projects}>{title}</Link></p>
+            <p><Link className={"bg-white absolute bottom-12 left-5 px-4 py-3 rounded-sm z-10 " + gallery} href={projects}>{title}</Link></p>
         </>
     )
 }

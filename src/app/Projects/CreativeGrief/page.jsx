@@ -1,5 +1,5 @@
 // @ts-nocheck
-
+import { allProj } from "../../data/projectList";
 import Heading from "../../components/Heading";
 import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
@@ -38,8 +38,8 @@ export default function TMA() {
                 imgString='../components/05.jpg'
             />
             <div>
-                <ProjSolo key={projectList[rNum].id} title={projectList[rNum].title} slug={projectList[rNum].slug} src={projectList[rNum].img[0]}/>
-                <ProjSolo key={12} title="View all projects" slug='' src={projectList[2].img[0]}/>
+              
+                <ProjSolo key={12} title="View more projects" slug='' src={allProj[2].img[0]}/>
             </div>
             <Footer/>
         </div>

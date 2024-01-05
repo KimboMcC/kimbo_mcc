@@ -11,13 +11,13 @@ export default function Project( props ) {
     
     return(
         <div>
-            <div className="py-16 px-5">
+            <div className="py-20 px-5">
                 <div>
-                    <h3 className="pb-8">The aim</h3>
+                    <h3 className="pb-4">The aim</h3>
                     <p>{aim}</p>
                 </div>
                 <div className="pt-16">
-                    <h3 className="pb-8">The outcome</h3>
+                    <h3 className="pb-4">The outcome</h3>
                     <p>{outcome}</p>
                 </div>
             </div>
@@ -27,7 +27,6 @@ export default function Project( props ) {
                 ))}
             </div>
             <ContactLink h3='Let&apos;s talk!' p="Got an idea but no clue how to turn it into a reality?"/>
-            
         </div>
     )
 }
