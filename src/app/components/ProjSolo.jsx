@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 
 import Image from "next/image"
 import test from './05.jpg'

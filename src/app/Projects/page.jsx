@@ -6,11 +6,6 @@ import ContactLink from "../components/ContactLink";
 import Footer from "../components/Footer";
 
 import { Metadata } from 'next'
- 
-export const metadata: Metadata = {
-  title: 'Projects',
-  description: '...', ///what write here? add Metadata to all PAGES! Why work on page.tsx but not layout.tsx? 
-}
     
 // HOVER STATE FOR GALLERY IMAGES. MAKE IT POP UP TO THE RIGHT N LEAVE A BLACK CLONE IN ITS PLACE. UNO WHAT I MEAN ;)
 

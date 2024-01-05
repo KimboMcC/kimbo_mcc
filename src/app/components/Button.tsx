@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Button( props ) {
+export default function Button( props: any ) {
     const { title, slug, gallery } = props
 
     let projects = ''

@@ -1,12 +1,14 @@
+// @ts-nocheck
+
 import Heading from "../../components/Heading";
 import Project from "../../components/Project";
 import { projectList } from "../../data/projectList"; 
 import test from "../../05.jpg"
 import ProjSolo from "../../components/ProjSolo";
 
-export default function TMA() {
-    const num = 1
-    let rNum = 1
+export default function Perihelia() {
+    const num = 5
+    let rNum = 5
     
     function random() {
         rNum = Math.floor(Math.random() * Object.keys(projectList).length)
