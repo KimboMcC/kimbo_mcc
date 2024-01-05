@@ -9,30 +9,14 @@ import ContactLink from './components/ContactLink'
 import Footer from './components/Footer'
 
 export default function Home() {
-  const projArray = []
-  
-  function randomProj() {
-    const projLength =  Object.keys(projectList).length
-    
-    while (projArray.length < 3) {
-      let a = Math.floor(Math.random() * projLength)
-
-      if (!projArray.includes(a)){
-        projArray.push(a)
-      }
-    }
-
-  }
-
-  randomProj()
 
   return (
     <>
       <Heading h1={'Kimbo McC'} h2={'Graphic/digital design & Web-development specialist'}/>
-      <ProjSolo key={projArray[0].id} title={projectList[projArray[0]].title} slug={projectList[projArray[0]].slug} src={projectList[projArray[0]].img[0]}/>
-      <ProjSolo key={projArray[1].id} title={projectList[projArray[1]].title} slug={projectList[projArray[1]].slug} src={projectList[projArray[1]].img[0]}/>
-      <ProjSolo key={projArray[2].id} title={projectList[projArray[2]].title} slug={projectList[projArray[2]].slug} src={projectList[projArray[2]].img[0]}/>
-      <ProjSolo key={12} title="View all projects" slug='' himg={projectList[projArray[2]].img[0]}/>
+      <ProjSolo key={projectList[0].id} title={projectList[0].title} slug={projectList[0].slug} src={projectList[0].img[0]}/>
+      <ProjSolo key={projectList[1].id} title={projectList[1].title} slug={projectList[1].slug} src={projectList[1].img[0]}/>
+      <ProjSolo key={projectList[5].id} title={projectList[5].title} slug={projectList[5].slug} src={projectList[5].img[0]}/>
+      <ProjSolo key={12} title="View all projects" slug='' src={projectList[0].img[0]}/>
       <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
       <Footer />
     </>

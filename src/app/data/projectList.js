@@ -23,14 +23,20 @@ import kf05 from './KF/05.png'
 import cg01 from './CG/01.png'
 import cg02 from './CG/02.png'
 
+import pb01 from './petbook/01.png'
+import pb02 from './petbook/02.png'
+
+import peri01 from './peri/01.png'
+import peri02 from './peri/02.png'
+
 export const projectList = {
   '0': {
     id: '0',
     title: 'ALL Magazine',
     slug: 'ALL',
-    h2: 'UI/UX Design, Front-End Development',
-    aim: 'This client wanted their existing digital footprint refreshed and updated to further establish their brand and connect with new audiences.',
-    outcome: 'A modern responsive website designed to pre-established brand guidelines, enhanced SEO to reach a wider audience, hosting services and a ‘club-finder’ feature directing new customers to their local point of contact.',
+    h2: 'UI/UX Design',
+    aim: 'To create a website showcasing the clients products alongside promoting their brand & highlighted artists to a larger world-wide audience.',
+    outcome: 'A clean, responsive and straightforward E-commerce site. Studying the branding supplied I created a website that effectively embodied ALLs message, aim & products.',
     img: [ all01, all02, all03, all04, all05, all06 ]
   },
 
@@ -45,38 +51,49 @@ export const projectList = {
   },
 
   '2': {
-    id: '3',
+    id: '2',
     title: 'KartFest',
     slug: 'KartFest',
     h2: "Graphic/Digital Design, Front-End Development",
+    aim: "To create a cohesive and unique brandingm with an accompanying website. ",
+    outcome: "KartFest was an established brand when they came to me and my mission was to re-invision their branding alongside modernizing & digitizing their brand with a website, allowing their customer unparalled connection to the brand.",
     img: [ kf01, kf02, kf03, kf04, kf05,]
   },
 
   '3': {
-    id: '4',
+    id: '3',
     title: 'Creative Grief',
     slug: 'CreativeGrief',
     h2: 'Graphic/Digital Design',
+    aim: 'A university brief, our task was to create a hypothetical mobile app designed to assist people going through the grieving process.',
+    outcome: 'Through my research I discoved that a large number of people use creative outlets to combat grief, and my concept was to create an app/community that people could use to share their creations with groups of others going through similar emotions. Users could upload their creations in various formats and choose to keep their uploads private or share with the larger community.',
     img: [ cg01, cg02]
-  }
-
-};
-
-
-
-/*
-'4': {
-    id: '4',
-    title: 'healty app',
-    slug: 'Health',
-    h2: 'Graphic/Digital Design',
-    img: [ ]
   },
+
+  '4': {
+    id: '4',
+    title: 'PetBook',
+    slug: 'PetBook',
+    h2: 'Front-End Development',
+    aim: 'To create a social-media clone using React native.',
+    outcome: 'I created a unique and playfull application featuring user log-in, likes, comments, post saving and a search feature.',
+    img: [ pb01, pb02]
+  },
+
   '5': {
     id: '5',
     title: 'Perihelia',
     slug: 'Perihelia',
-    h2: 'Graphic/Digital Design, Front-End Development',
-    img: [ ]
-  },  
-  */
+    h2: 'Graphic/Digital Design',
+    aim: 'Create the branding and UI for the clients website. It needed to be minimalist and to the point. Directing web-traffic towards the showcase & services offered.',
+    outcome: 'A bold UI that puts emphasis on the case-studies while accommodating the branding and allowing both to shine through.',
+    img: [ peri01, peri02]
+  }
+
+};
+
+export const allProj = {
+  '2': {
+    img: []
+  }
+}

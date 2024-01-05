@@ -14,9 +14,9 @@ export default function ProjSolo( props ) {
     }
 
     return(
-        <div className="relative h-64 -mt-4">
+        <div className="relative h-70">
             <Image
-                className=" z-10"
+                className="z-10"
                 src={src}
                 alt="Picture of work"
             />

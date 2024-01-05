@@ -42,8 +42,8 @@ export default function ALL() {
                 imgString='../components/05.jpg'
             />
             <div className="mb-24">
-                <ProjSolo key={projectList[rNum].id} title={projectList[rNum].title} slug={projectList[rNum].slug} himg={projectList[rNum].img[0]}/>
-                <ProjSolo key={12} title="View all projects" slug='' himg={projectList[2].img[0]}/>
+                <ProjSolo key={projectList[rNum].id} title={projectList[rNum].title} slug={projectList[rNum].slug} src={projectList[rNum].img[0]}/>
+                <ProjSolo key={12} title="View all projects" slug='' src={projectList[2].img[0]}/>
             </div>
             <Footer/>
         </div>
