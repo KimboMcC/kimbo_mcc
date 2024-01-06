@@ -91,3 +91,21 @@ li:hover {
 .fa-bars {
   color: #333;
 }
+
+@keyframes moveObject {
+  0% {
+    transform: translate(0, 0); /* Starting position */
+  }
+  100% {
+    transform: translate(10px, 10px); /* Moves to top right */
+  }
+}
+
+.buttonanimate:hover {
+  transform: translate(6px, -6px);
+}
+
+.buttonanimate {
+  transform: translate(0px, 0px);
+  transition: transform .5s;
+}
