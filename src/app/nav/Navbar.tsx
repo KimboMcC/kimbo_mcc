@@ -27,10 +27,9 @@ export default function Navbar() {
                 <FontAwesomeIcon className="h-10 cursor-pointer" onClick={toggleOpen} icon={open ? faBars : faXmark}/>
             </div>
             <ul className={"py-24 px-5 bg-gray-100 w-full " + visible }>
-                    <li onClick={toggleOpen} className=""><Link href='/Projects'>Projects</Link></li>
-                    <li onClick={toggleOpen}><Link href='/Contact'>Contact</Link></li>
-                    <li onClick={toggleOpen}><Link href='/CV'>CV</Link></li>
-                    <li onClick={toggleOpen}><Link href='/'>Home</Link></li>
+                <li onClick={toggleOpen}><Link href='/'>Projects</Link></li>
+                <li onClick={toggleOpen}><Link href='/Contact'>Contact</Link></li>
+
             </ul>
         </div>
     )

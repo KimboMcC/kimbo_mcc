@@ -9,7 +9,7 @@ import Footer from "@/app/components/Footer";
 import { allProj } from "../../data/projectList";
 
 export default function ALL() {
-    const num = 0
+    const num = 2
     let rNum = 0
     let gNum = '0'
 
@@ -26,7 +26,7 @@ export default function ALL() {
     return(
         <div className="">
             <div className={"bg-[url('./data/ALL/01.png')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
-                <div className="bg-white py-8 pl-5">
+                <div className="bg-white py-8 pl-5 pr-4">
                     <h1 className="pb-6">{projectList[num].title}</h1>
                     <h2>{projectList[num].h2}</h2>
                 </div>

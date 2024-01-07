@@ -34,16 +34,6 @@ import proj01 from './01.png'
 export const projectList = {
   '0': {
     id: '0',
-    title: 'ALL Magazine',
-    slug: 'ALL',
-    h2: 'UI/UX Design',
-    aim: 'To create a website showcasing the clients products alongside promoting their brand & highlighted artists to a larger world-wide audience.',
-    outcome: 'A clean, responsive and straightforward E-commerce site. Studying the branding supplied I created a website that effectively embodied ALLs message, aim & products.',
-    img: [ all01, all02, all03, all04, all05, all06 ]
-  },
-
-  '1': {
-    id: '1',
     title: 'Temple Martial Arts',
     slug: 'TMA',
     h2: 'UI/UX Design, Front-End Development',
@@ -52,28 +42,28 @@ export const projectList = {
     img: [ tma01, tma02, tma03, tma04, tma05, tma06, tma07, tma08 ]
   },
 
-  '2': {
-    id: '2',
+  '1': {
+    id: '1',
     title: 'KartFest',
     slug: 'KartFest',
-    h2: "Graphic/Digital Design, Front-End Development",
+    h2: "UI/UX & Graphic Design, Front-End Development",
     aim: "To create a cohesive and unique brandingm with an accompanying website. ",
     outcome: "KartFest was an established brand when they came to me and my mission was to re-invision their branding alongside modernizing & digitizing their brand with a website, allowing their customer unparalled connection to the brand.",
     img: [ kf01, kf02, kf03, kf04, kf05,]
   },
 
-  '3': {
-    id: '3',
-    title: 'Creative Grief',
-    slug: 'CreativeGrief',
-    h2: 'Graphic/Digital Design',
-    aim: 'A university brief, our task was to create a hypothetical mobile app designed to assist people going through the grieving process.',
-    outcome: 'Through my research I discoved that a large number of people use creative outlets to combat grief, and my concept was to create an app/community that people could use to share their creations with groups of others going through similar emotions. Users could upload their creations in various formats and choose to keep their uploads private or share with the larger community.',
-    img: [ cg01, cg02]
+  '2': {
+    id: '2',
+    title: 'ALL Magazine',
+    slug: 'ALL',
+    h2: 'UI/UX Design',
+    aim: 'To create a website showcasing the clients products alongside promoting their brand & highlighted artists to a larger world-wide audience.',
+    outcome: 'A clean, responsive and straightforward E-commerce site. Studying the branding supplied I created a website that effectively embodied ALLs message, aim & products.',
+    img: [ all01, all02, all03, all04, all05, all06 ]
   },
 
-  '4': {
-    id: '4',
+  '3': {
+    id: '3',
     title: 'PetBook',
     slug: 'PetBook',
     h2: 'Front-End Development',
@@ -82,11 +72,21 @@ export const projectList = {
     img: [ pb01, pb02]
   },
 
+  '4': {
+    id: '4',
+    title: 'Creative Grief',
+    slug: 'CreativeGrief',
+    h2: 'UI/UX & Graphic Design',
+    aim: 'A university brief, our task was to create a hypothetical mobile app designed to assist people going through the grieving process.',
+    outcome: 'Through my research I discoved that a large number of people use creative outlets to combat grief, and my concept was to create an app/community that people could use to share their creations with groups of others going through similar emotions. Users could upload their creations in various formats and choose to keep their uploads private or share with the larger community.',
+    img: [ cg01, cg02]
+  },
+
   '5': {
     id: '5',
     title: 'Perihelia',
     slug: 'Perihelia',
-    h2: 'Graphic/Digital Design',
+    h2: 'UI/UX & Graphic Design',
     aim: 'Create the branding and UI for the clients website. It needed to be minimalist and to the point. Directing web-traffic towards the showcase & services offered.',
     outcome: 'A bold UI that puts emphasis on the case-studies while accommodating the branding and allowing both to shine through.',
     img: [ peri01, peri02]

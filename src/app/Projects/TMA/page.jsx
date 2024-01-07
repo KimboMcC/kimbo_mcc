@@ -10,7 +10,7 @@ import { allProj } from "../../data/projectList";
 
 
 export default function TMA() {
-    const num = 1
+    const num = 0
     let rNum = 1
     
     function random() {
@@ -24,7 +24,7 @@ export default function TMA() {
     return(
         <div className="">
             <div className={"bg-[url('./data/TMA/01.jpg')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
-                <div className="bg-white py-8 pl-5">
+                <div className="bg-white py-8 pl-5 pr-4">
                     <h1 className="pb-6">{projectList[num].title}</h1>
                     <h2>{projectList[num].h2}</h2>
                 </div>

@@ -8,7 +8,7 @@ import ProjSolo from "../../components/ProjSolo";
 import Footer from "@/app/components/Footer";
 
 export default function TMA() {
-    const num = 3
+    const num = 4
     let rNum = 1
     
     function random() {
@@ -22,7 +22,7 @@ export default function TMA() {
     return(
         <div className="">
             <div className={"bg-[url('./data/CG/01.png')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
-                <div className="bg-white py-8 pl-5">
+                <div className="bg-white py-8 pl-5 pr-2">
                     <h1 className="pb-6">{projectList[num].title}</h1>
                     <h2>{projectList[num].h2}</h2>
                 </div>

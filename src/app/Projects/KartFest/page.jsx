@@ -7,7 +7,7 @@ import Footer from "@/app/components/Footer";
 import { allProj } from "../../data/projectList";
 
 export default function KartFest() {
-    const num = 2
+    const num = 1
     let rNum = 3
     
     function random() {
@@ -21,7 +21,7 @@ export default function KartFest() {
     return(
         <div className="">
             <div className={"bg-[url('./data/KF/01.png')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
-                <div className="bg-white py-8 pl-5">
+                <div className="bg-white py-8 pl-5 pr-4">
                     <h1 className="pb-6">{projectList[num].title}</h1>
                     <h2>{projectList[num].h2}</h2>
                 </div>

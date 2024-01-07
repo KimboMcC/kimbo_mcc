@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 import Image from 'next/image'
 import Link from 'next/link'
 import ProjSolo from './components/ProjSolo'
@@ -13,11 +11,16 @@ export default function Home() {
 
   return (
     <>
-      <Heading h1={'Kimbo McC'} h2={'Graphic/digital design & Web-development specialist'}/>
-      <ProjSolo key={projectList[1].id} title={projectList[1].title} slug={projectList[1].slug} src={projectList[1].img[0]}/>
-      <ProjSolo key={projectList[4].id} title={projectList[4].title} slug={projectList[4].slug} src={projectList[4].img[0]}/>
-      <ProjSolo key={projectList[0].id} title={projectList[0].title} slug={projectList[0].slug} src={projectList[0].img[0]}/>
-      <ProjSolo key={12} title="View all projects" slug='' src={allProj[2].img[0]}/>
+      <Heading h1={'Kimbo McC'} h2={'Graphic/Digital Design & Web-Development Specialist'}/>
+      {Object.keys(projectList).map((key) => (
+                <ProjSolo
+                    key={key} // Assign a unique key for each element
+                    title={projectList[key].title}
+                    slug={projectList[key].slug}
+                    h2={projectList[key].h2}
+                    src={projectList[key].img[0]}
+                />
+            ))}
       <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
       <Footer />
     </>

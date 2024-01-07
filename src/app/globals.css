@@ -101,11 +101,12 @@ li:hover {
   }
 }
 
-.buttonanimate:hover {
+.buttonanimate {
   transform: translate(6px, -6px);
+  transition: transform .5s;
 }
 
-.buttonanimate {
+.smile {
   transform: translate(0px, 0px);
   transition: transform .5s;
 }
