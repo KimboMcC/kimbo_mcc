@@ -1,4 +1,5 @@
 'use client'
+
 import Image from "next/image"
 import test from './05.jpg'
 import Button from "./Button"
@@ -23,7 +24,7 @@ export default function ProjSolo( props ) {
     };
 
     return(
-        <Link href={''}>
+        <Link href={`/Projects/${slug}`}>
         <div className="relative h-70 " onMouseOut={handleMouseOut} onMouseOver={handleMouseOver}>
             
                 <Image

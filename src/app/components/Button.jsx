@@ -15,7 +15,7 @@ export default function Button( props ) {
     return (
         <div className="bg-black">
             <p className={"bg-black absolute bottom-12 left-5 px-4 py-3 opacity-50 rounded-sm z-10 " + gallery} aria-hidden='true'>{title}</p>
-            <p className="hover:underline"><Link className={"bg-white absolute bottom-12 left-5 px-4 py-3 rounded-sm z-10 " + gallery + ' ' + animate} href={projects}>{title}</Link></p>
+            <p><Link className={"bg-white absolute bottom-12 left-5 px-4 py-3 rounded-sm z-10 " + gallery + ' ' + animate} href={projects}>{title}</Link></p>
         </div>
     )
 }

@@ -7,6 +7,7 @@ import ContactLink from './components/ContactLink'
 import Footer from './components/Footer'
 import { allProj } from './data/projectList'
 
+
 export default function Home() {
 
   return (

@@ -104,9 +104,20 @@ li:hover {
 .buttonanimate {
   transform: translate(6px, -6px);
   transition: transform .5s;
+  text-decoration: underline;
 }
 
 .smile {
+  transform: translate(0px, 0px);
+  transition: transform .5s;
+}
+
+.anime:hover {
+  transform: translate(6px, -6px);
+  text-decoration: underline;
+}
+
+.anime {
   transform: translate(0px, 0px);
   transition: transform .5s;
 }
