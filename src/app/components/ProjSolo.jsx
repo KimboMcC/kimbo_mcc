@@ -32,11 +32,11 @@ export default function ProjSolo( props ) {
 
     return(
         <Link href={projects}>
-        <div className="relative h-70 " onMouseOut={handleMouseOut} onMouseOver={handleMouseOver}>
-            
+        <div className="relative" onMouseOut={handleMouseOut} onMouseOver={handleMouseOver}>
                 <Image
                     className="z-10"
                     src={src}
+                    height={'5px'}
                     alt="Picture of work"
                 />
                 <Button gallery={gallery} title={title} slug={slug} animate={isHovered ? 'buttonanimate' : 'smile'}/>

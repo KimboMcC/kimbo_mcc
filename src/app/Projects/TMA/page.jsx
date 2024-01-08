@@ -22,11 +22,13 @@ export default function TMA() {
     random()
     
     return(
-        <div className="">
-            <div className={"bg-[url('./data/TMA/01.jpg')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
-                <div className="bg-white py-8 pl-5 pr-4">
-                    <h1 className="pb-6">{projectList[num].title}</h1>
-                    <h2>{projectList[num].h2}</h2>
+        <div className="relative">
+            <div className={"bg-[url('./data/TMA/01.jpg')] bg-center bg-cover pt-40 pb-24"}>
+                <div className="py-8 mb-40">
+                    <div className="float-left bg-white px-5 p-8 md:pl-12">
+                        <h1 className="pb-6">{projectList[num].title}</h1>
+                        <h2>{projectList[num].h2}</h2>
+                    </div>
                 </div>
             </div>
             <Project 

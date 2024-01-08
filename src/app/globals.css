@@ -65,13 +65,16 @@ p {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.6;
   letter-spacing: 0.045rem;
   color: #333;
 }
 
+.desk {
+  margin-bottom: 0rem;
+}
 
-ul li:first-child {
+ul.mob li:first-child {
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
@@ -81,7 +84,7 @@ ul li:first-child {
   margin-bottom: 4rem;
 }
 
-ul li {
+ul.mob li {
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
