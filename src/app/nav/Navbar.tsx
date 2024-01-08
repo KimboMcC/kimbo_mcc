@@ -12,7 +12,6 @@ export default function Navbar() {
         setOpen(!open)
     }
 
-
     let visible = 'hidden'
     if (open) {
         visible = 'hidden'
@@ -21,9 +20,9 @@ export default function Navbar() {
     }
     
     return(
-        <div className="items-center fixed z-20 w-full">
-            <div className="flex py-5 px-5 justify-between bg-white">
-                <p className="font-bold text-5xl"><Link href={'/'}>KIMBO</Link></p>
+        <div className={"items-center fixed z-20 w-full bg-[#333]"}>
+            <div className={"flex py-5 px-5 justify-between "} >
+                <p className="font-bold text-white text-5xl"><Link href={'/'}>KIMBO</Link></p>
                 <div id="nav-icon3" onClick={toggleOpen} className={open ? '' : 'open'}>
                     <span></span>
                     <span></span>
@@ -31,9 +30,9 @@ export default function Navbar() {
                     <span></span>
                 </div>
             </div>
-            <ul className={"py-14 px-5 z-18 drop-shadow-md bg-white w-full " + visible} >
-                <li><Link href='/' onClick={toggleOpen}>Projects</Link></li>
-                <li><Link href='/Contact' onClick={toggleOpen}>Contact</Link></li>
+            <ul className={"py-14 px-5 z-18 drop-shadow-md bg-[#333]w-full " + visible} >
+                <li><Link href='/' className="text-white" onClick={toggleOpen}>Projects</Link></li>
+                <li><Link href='/Contact' className="text-white" onClick={toggleOpen}>Contact</Link></li>
             </ul>
         </div>
     )

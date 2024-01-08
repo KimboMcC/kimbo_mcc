@@ -187,7 +187,7 @@ li:hover {
   position: absolute;
   height: 6px;
   width: 100%;
-  background: #4f4f4f;
+  background: #333;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
