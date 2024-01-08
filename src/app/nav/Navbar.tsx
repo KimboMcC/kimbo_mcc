@@ -8,10 +8,10 @@ import { useState } from "react"
 
 export default function Navbar() {
     const [ open, setOpen ] = useState(true)
-
     function toggleOpen() {
         setOpen(!open)
     }
+
 
     let visible = 'hidden'
     if (open) {
@@ -24,13 +24,21 @@ export default function Navbar() {
         <div className="items-center fixed z-20 w-full">
             <div className="flex py-5 px-5 justify-between bg-white">
                 <p className="font-bold text-5xl"><Link href={'/'}>KIMBO</Link></p>
-                <FontAwesomeIcon className="h-10 cursor-pointer" onClick={toggleOpen} icon={open ? faBars : faXmark}/>
+                <div id="nav-icon3" onClick={toggleOpen} className={open ? '' : 'open'}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul className={"py-24 px-5 bg-gray-100 w-full " + visible }>
-                <li onClick={toggleOpen}><Link href='/'>Projects</Link></li>
-                <li onClick={toggleOpen}><Link href='/Contact'>Contact</Link></li>
-
+            <ul className={"py-14 px-5 z-18 drop-shadow-md bg-white w-full " + visible} >
+                <li><Link href='/' onClick={toggleOpen}>Projects</Link></li>
+                <li><Link href='/Contact' onClick={toggleOpen}>Contact</Link></li>
             </ul>
         </div>
     )
 }   
+
+/*
+<FontAwesomeIcon className="h-10 cursor-pointer" onClick={toggleOpen} icon={open ? faBars : faXmark}/>
+*/

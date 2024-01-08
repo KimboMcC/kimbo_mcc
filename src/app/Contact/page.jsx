@@ -24,7 +24,7 @@ export default function Contact() {
       }
   
     }
-  
+
     randomProj()
 
     return(
@@ -34,22 +34,20 @@ export default function Contact() {
                     <div className="mb-2">  
                         <div className="inline-flex items-center pb-2 text-[#333]">
                             <FontAwesomeIcon className="h-9 pr-2 text-[#333]" icon={faEnvelope}/>
-                            <h3>kimmccdesign@gmail.com</h3>
+                            <h4>kimmccdesign@gmail.com</h4>
                         </div>
                     </div> 
                     <div>
-                        <Link className="inline-flex pb-4 text-[#333]" href="https://www.linkedin.com/in/kim-mccauley-974881208/" >
+                        <Link className="inline-flex items-center pb-4 text-[#333]" href="https://www.linkedin.com/in/kim-mccauley-974881208/" >
                             <FontAwesomeIcon className="h-9 pr-2" icon={faLinkedin}/>
-                            <h3 className="underline">LinkedIn</h3>
-                       
+                            <h4 className="underline">LinkedIn</h4>
                         </Link>
-                        
                     </div>
                 </div>
                 <div className="mb-24">
                 <ProjSolo key={projectList[0].id} title={projectList[0].title} slug={projectList[0].slug} src={projectList[0].img[0]}/>
                 <ProjSolo key={projectList[2].id} title={projectList[2].title} slug={projectList[2].slug} src={projectList[2].img[0]}/>
-                <ProjSolo key={12} title="View all projects" slug="Projects" src={allProj[2].img[0]}/>
+                <ProjSolo key={12} title="View all projects" src={allProj[2].img[0]}/>
                 </div>
                 <Footer/>
         </div>
