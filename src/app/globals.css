@@ -37,6 +37,7 @@ h1 {
   color: #333
  }
 
+
 h2 {
   font-size: 1.5rem;
   font-style: normal;
@@ -201,4 +202,8 @@ li:hover {
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
+}
+
+.maxImage {
+  max-height: 45rem;
 }

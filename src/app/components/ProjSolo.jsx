@@ -32,15 +32,16 @@ export default function ProjSolo( props ) {
 
     return(
         <Link href={projects}>
-        <div className="relative" onMouseOut={handleMouseOut} onMouseOver={handleMouseOver}>
-                <Image
-                    className="z-10"
-                    src={src}
-                    height={'5px'}
-                    alt="Picture of work"
-                />
+            <div className="relative overflow-hidden image-center"  onMouseOut={handleMouseOut} onMouseOver={handleMouseOver}>
+                <div className="maxImage">
+                    <Image
+                        className="z-10"
+                        src={src}
+                        alt="Picture of work"
+                    />
+                </div>
                 <Button gallery={gallery} title={title} slug={slug} animate={isHovered ? 'buttonanimate' : 'smile'}/>
-        </div>
+            </div>
         </Link>
     )
 }

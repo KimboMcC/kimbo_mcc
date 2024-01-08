@@ -5,7 +5,7 @@ import all04 from './ALL/04.png'
 import all05 from './ALL/05.png'
 import all06 from './ALL/06.png'
 
-import tma01 from './TMA/01.jpg'
+import tma01 from './TMA/01.png'
 import tma02 from './TMA/02.png'
 import tma03 from './TMA/03.png'
 import tma04 from './TMA/06.png'
@@ -38,7 +38,7 @@ export const projectList = {
     slug: 'TMA',
     h2: 'UI/UX Design, Front-End Development',
     aim: 'This client wanted their existing digital footprint refreshed and updated to further establish their brand and connect with new audiences.',
-    outcome: 'A modern responsive website designed to pre-established brand guidelines, enhanced SEO to reach a wider audience, hosting services and a ‘club-finder’ feature directing new customers to their local point of contact.',
+    outcome: 'A modern responsive website designed to pre-established brand guidelines, enhanced SEO to reach a wider audience, hosting services and a \"club-finder\" feature directing new customers to their local point of contact.',
     img: [ tma01, tma02, tma03, tma04, tma05, tma06, tma07, tma08 ]
   },
 
@@ -47,7 +47,7 @@ export const projectList = {
     title: 'KartFest',
     slug: 'KartFest',
     h2: "UI/UX & Graphic Design, Front-End Development",
-    aim: "To create a cohesive and unique brandingm with an accompanying website. ",
+    aim: "To create a cohesive and unique branding with an accompanying website. ",
     outcome: "KartFest was an established brand when they came to me and my mission was to re-invision their branding alongside modernizing & digitizing their brand with a website, allowing their customer unparalled connection to the brand.",
     img: [ kf01, kf02, kf03, kf04, kf05,]
   },
@@ -58,7 +58,7 @@ export const projectList = {
     slug: 'ALL',
     h2: 'UI/UX Design',
     aim: 'To create a website showcasing the clients products alongside promoting their brand & highlighted artists to a larger world-wide audience.',
-    outcome: 'A clean, responsive and straightforward E-commerce site. Studying the branding supplied I created a website that effectively embodied ALLs message, aim & products.',
+    outcome: 'A clean, responsive and straightforward E-commerce site. Studying the branding supplied I created a website that effectively embodied ALL magazine\'s message, aim & products.',
     img: [ all01, all02, all03, all04, all05, all06 ]
   },
 

@@ -11,12 +11,12 @@ export default function Project( props ) {
     
     return(
         <div>
-            <div className="py-32 px-5 md:px-12 md:w-3/5">
+            <div className="py-28 px-5 md:px-12 md:w-4/5 xl:w-3/5">
                 <div>
                     <h3 className="pb-4">The aim</h3>
                     <p>{aim}</p>
                 </div>
-                <div className="pt-24">
+                <div className="md:pt-24 pt-16 ">
                     <h3 className="pb-4">The outcome</h3>
                     <p>{outcome}</p>
                 </div>

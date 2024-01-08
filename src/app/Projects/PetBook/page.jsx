@@ -17,14 +17,13 @@ export default function KartFest() {
         }
     }
     random()
-    
     return(
-        <div className="">
-            <div className={"bg-[url('./data/petbook/01.png')] bg-bottom bg-cover pt-40 pb-24 pr-5"}>
-                <div className="bg-white py-8 pl-5 pr-4">
-                    <h1 className="pb-6">{projectList[num].title}</h1>
-                    <h2>{projectList[num].h2}</h2>
-                </div>
+        <div className="relative top-20">
+            <div className={"bg-[url('./data/petbook/01.png')] bg-opacity-40 bg-center bg-cover py-40"}>
+                    <div className="bg-white py-8 pl-5 mr-5 md:pl-12 w-fit pr-8">
+                        <h1 className="pb-2">{projectList[num].title}</h1>
+                        <h2>{projectList[num].h2}</h2>
+                    </div>
             </div>
             <Project 
                 title={projectList[num].title} 
