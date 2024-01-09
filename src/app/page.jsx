@@ -11,8 +11,7 @@ import { allProj } from './data/projectList'
 export default function Home() {
 
   return (
-    <>
-      <Heading h1={'Kimbo McC'} h2={'Graphic/Digital Design & Web-Development Specialist'}/>
+    <div className='relative top-20'>
       {Object.keys(projectList).map((key) => (
                 <ProjSolo
                     key={key} // Assign a unique key for each element
@@ -24,6 +23,6 @@ export default function Home() {
             ))}
       <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
       <Footer />
-    </>
+    </div>
   );
 }
