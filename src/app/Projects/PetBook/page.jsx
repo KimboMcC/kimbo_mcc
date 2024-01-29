@@ -20,7 +20,7 @@ export default function KartFest() {
     return(
         <div className="relative top-20">
             <div className={"bg-[url('./data/petbook/01.png')] bg-opacity-40 bg-center bg-cover py-40"}>
-                    <div className="bg-white py-8 pl-5 mr-5 md:pl-12 w-fit pr-8">
+                    <div className="bg-white py-8 pl-5 mr-5 md:pl-12 w-fit pr-8 2xl:pl-[18rem]">
                         <h1 className="pb-2">{projectList[num].title}</h1>
                         <h2>{projectList[num].h2}</h2>
                     </div>

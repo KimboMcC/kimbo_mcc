@@ -21,7 +21,10 @@ export default function Home() {
                     src={projectList[key].img[0]}
                 />
             ))}
-      <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
+      <div className='2xl:px-64'>
+        <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
+      </div>
+      
       <Footer />
     </div>
   );

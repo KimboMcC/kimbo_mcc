@@ -39,7 +39,7 @@ export default function Navbar() {
             </div>
             
             <div className="bg-[#fff] fixed w-full z-20 ">
-                <div className={"py-6 px-12 hidden md:flex justify-between"} >
+                <div className={"py-8 px-12 hidden md:flex justify-between 2xl:px-64"} >
                     <Link href={'/'}><Image alt='Kim Logo' height={70}  src={favicon} /></Link>
                     <ul className={"bg-[#fff] flex items-end gap-16"} >
                         <li className="font-medium text-[#333] hover:text-black text-xl"><Link href='/' onClick={toggleOpen}>Projects</Link></li>

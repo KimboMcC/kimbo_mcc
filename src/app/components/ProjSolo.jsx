@@ -32,7 +32,7 @@ export default function ProjSolo( props ) {
 
     return(
         <Link href={projects}>
-            <div className="relative overflow-hidden image-center" onMouseOut={handleMouseOut} onMouseOver={handleMouseOver}>
+            <div className="relative overflow-hidden image-center 2xl:mx-64" onMouseOut={handleMouseOut} onMouseOver={handleMouseOver}>
                 <div className="maxImage">
                     <Image
                         className="z-10"
