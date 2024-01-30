@@ -24,7 +24,6 @@ export default function Home() {
       <div className='2xl:px-64'>
         <ContactLink h3={'Get in touch'} p={'Have something in mind? Drop me a line and I’ll get back to you ASAP.'}/>
       </div>
-      
       <Footer />
     </div>
   );

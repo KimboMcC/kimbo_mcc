@@ -11,7 +11,7 @@ export default function Project( props ) {
     
     return(
         <div className="2xl:px-64">
-            <div className="py-28 px-5 md:px-12 md:w-4/5 xl:w-3/5 2xl:w-2/5">
+            <div className="py-28 px-5 md:px-12 md:w-4/5 xl:w-3/5 2xl:2/5">
                 <div>
                     <h3 className="pb-4">The aim</h3>
                     <p>{aim}</p>

@@ -38,6 +38,7 @@ export default function ProjSolo( props ) {
                         className="z-10"
                         src={src}
                         alt="Picture of work"
+                        loading="lazy"
                     />
                 </div>
                 <Button gallery={gallery} title={title} slug={slug} animate={isHovered ? 'buttonanimate' : 'smile'}/>

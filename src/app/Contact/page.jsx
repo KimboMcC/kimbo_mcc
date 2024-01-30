@@ -29,6 +29,7 @@ export default function Contact() {
 
     return(
         <div>
+            <div className="2xl:px-52">
             <Heading h1="Don't be a stranger" h2="Got something you wanted to talk about? Feel free to get in-touch and I’ll get back to you ASAP."/>
                 <div className="flex flex-col gap-8 pl-5 pb-24 md:pl-12">  
                     <div className="mb-2">  
@@ -43,6 +44,7 @@ export default function Contact() {
                             <h4 className="underline">LinkedIn</h4>
                         </Link>
                     </div>
+                </div>
                 </div>
                 <div className="">
                 <ProjSolo key={projectList[0].id} title={projectList[0].title} slug={projectList[0].slug} src={projectList[0].img[0]}/>
