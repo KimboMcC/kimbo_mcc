@@ -47,7 +47,7 @@ export const projectList = {
     title: 'KartFest',
     slug: 'KartFest',
     h2: "UI/UX & Graphic Design, Front-End Development",
-    aim: "To create a cohesive and unique branding with an accompanying website. ",
+    aim: "To create cohesive and unique branding alongside an accompanying website to further involve their customer base with the prodcut, creating a community.",
     outcome: "KartFest was an established brand when they came to me and my mission was to re-invision their branding alongside modernizing & digitizing their brand with a website, allowing their customer unparalled connection to the brand.",
     img: [ kf01, kf02, kf03, kf04, kf05,]
   },
