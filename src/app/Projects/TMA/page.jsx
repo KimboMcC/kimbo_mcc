@@ -38,6 +38,7 @@ export default function TMA() {
                 outcome={projectList[num].outcome}
                 imgs={projectList[num].img}
                 imgString='../components/05.jpg'
+                link='https://tma.perihelia.io'
             />
             <div>
                 <ProjSolo key={12} title="View more projects" slug='' src={allProj[2].img[0]}/>
