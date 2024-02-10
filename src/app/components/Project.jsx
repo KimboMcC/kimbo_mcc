@@ -5,7 +5,6 @@ import ProjSolo from "./ProjSolo";
 import ContactLink from "./ContactLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
 
 export default function Project( props ) {
     const { aim, outcome, imgs, link  } = props
@@ -22,12 +21,12 @@ export default function Project( props ) {
                     <p>{outcome}</p>
                 </div>
                 {props.link ? (
-                    <Link target="blank" href={link}>
-                        <div className="flex items-center gap-2 anime pt-16 anime"> ///MAKE TEXT ALL GREY TO MATCH OTHER TEXT. SET LINKS UP IN OTHER RELEVANT PROJECTS.
+                    <a target="blank" href={link}>
+                        <div className="flex items-center gap-2 anime pt-16 anime text-[#4f4f4f]"> 
                             <FontAwesomeIcon className='pr-2' height={25} icon={faSquareArrowUpRight} />
                             <h4 className="">See for yourself</h4>
                         </div>
-                    </Link>
+                    </a>
                 ): <div></div>}
             </div>
                 <div className="">

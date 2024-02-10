@@ -67,7 +67,7 @@ export const projectList = {
     title: 'PetBook',
     slug: 'PetBook',
     h2: 'Front-End Development',
-    aim: 'To create a social-media clone using React native.',
+    aim: 'To create a social-media clone using React native as apart of my front-end learning.',
     outcome: 'I created a unique and playful application featuring user log-in, likes, comments, post saving and a search feature.',
     img: [ pb01, pb02]
   },

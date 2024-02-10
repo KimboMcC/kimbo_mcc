@@ -33,14 +33,14 @@ export default function Contact() {
             <Heading h1="Don't be a stranger" h2="Got something you wanted to talk about? Feel free to get in-touch and I’ll get back to you ASAP."/>
                 <div className="flex flex-col gap-8 pl-5 pb-24 md:pl-12">  
                     <div className="mb-2">  
-                        <div className="inline-flex items-center pb-2 text-[#333]">
-                            <FontAwesomeIcon className="h-9 pr-2 text-[#333]" icon={faEnvelope}/>
+                        <div className="inline-flex items-center pb-2 text-[#4f4f4f]">
+                            <FontAwesomeIcon className="h-9 pr-4" icon={faEnvelope}/>
                             <h4>kimmccdesign@gmail.com</h4>
                         </div>
                     </div> 
                     <div>
-                        <Link className="inline-flex items-center pb-4 text-[#333]" href="https://www.linkedin.com/in/kim-mccauley-974881208/" >
-                            <FontAwesomeIcon className="h-9 pr-2" icon={faLinkedin}/>
+                        <Link className="inline-flex items-center pb-4 text-[#4f4f4f]" href="https://www.linkedin.com/in/kim-mccauley-974881208/" >
+                            <FontAwesomeIcon className="h-9 pr-4" icon={faLinkedin}/>
                             <h4 className="underline">LinkedIn</h4>
                         </Link>
                     </div>

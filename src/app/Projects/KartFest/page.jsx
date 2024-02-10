@@ -35,6 +35,7 @@ export default function KartFest() {
                 outcome={projectList[num].outcome}
                 imgs={projectList[num].img}
                 imgString='../components/05.jpg'
+                link="https://kartfest.co.uk/"
             />
             <div>
         
